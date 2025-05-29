@@ -1,0 +1,83 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css";
+
+@keyframes stand-out {
+  from {
+    background-color: #ffffff;
+  }
+  
+  to {
+    background-color: var(--primary-background-color);
+  }
+}
+
+:root {
+  --primary-background-color: #00ff9c;
+  --light-yellow-color: #FFE700;
+  --cream-color: #FEFFA7;
+  font-family: "游ゴシック体", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+}
+
+.section-header {
+  padding: 0 15px;
+  border-left: 15px double #006A82; 
+}
+
+.main-section {
+  padding: 0 10px;
+}
+
+.work-title {
+  padding: 0 10px;
+  border-left: 5px solid #00B6B1;
+  border-bottom: 2px solid #00B6B1;
+}
+
+.site-header {
+  padding-top: 8em;
+  height: 24em;
+  animation-delay: 0.5s;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-name: stand-out;
+  animation-fill-mode: forwards;
+  margin-bottom: 64px;
+}
+
+.site-header h1 {
+  text-align: center;
+  font-size: 80px;
+  color: #fff; 
+}
+
+.site-footer {
+margin-top: 64px;
+background-color: var(--primary-background-color);
+}
+
+.app-image {
+  margin: 0 auto;
+  max-width: 640px;
+  border: 1px solid #000000;
+}
+
+.skill-list {
+  padding: 0;
+}
+
+.skill-list li {
+  border-left: solid 8px var(--light-yellow-color);
+  background-color: var(--cream-color);
+  padding: 0.5em;
+  list-style-type: none;
+}
+
+@media (max-width: 768px) {
+  .site-header {
+    padding-top: 4em;
+    height: 12em;
+  }
+
+  .site-header h1 {
+    font-size: 48px;
+  }
+}
