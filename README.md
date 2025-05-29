@@ -14,6 +14,7 @@
 
 ## 構成
 
+```text
 .
 ├── README.md
 ├── css
@@ -23,6 +24,7 @@
 │   ├── simple-message-board.png
 │   └── web-page-memo.png
 └── index.html
+```
 
 ## 作者情報
 
