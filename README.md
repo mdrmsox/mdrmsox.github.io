@@ -5,6 +5,7 @@
 
 ## 公開URL 
 
+[https://mdrmsox.github.io/](https://mdrmsox.github.io/)
 
 ## サイト概要と使用技術
 
@@ -12,8 +13,6 @@
 ページ内では、学習の成果として作成したアプリケーションの情報を紹介しています。
 
 ## 構成
-
-[https://mdrmsox.github.io/](https://mdrmsox.github.io/)
 
 .
 ├── README.md
